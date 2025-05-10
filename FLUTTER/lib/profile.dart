@@ -20,7 +20,7 @@ class _ProfileState extends State<Profile> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Profil Pengguna'),
+        title: const Text('USWATUN'),
         backgroundColor: Colors.blueAccent,
       ),
       body: Center(
@@ -54,7 +54,7 @@ class _ProfileState extends State<Profile> {
                 ElevatedButton.icon(
                   onPressed: tambahFollower,
                   icon: const Icon(Icons.person_add),
-                  label: const Text('Tambah Follower'),
+                  label: const Text('FOLLOW'),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.blueAccent,
                     padding: const EdgeInsets.symmetric(
